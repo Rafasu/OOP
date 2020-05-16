@@ -7,7 +7,7 @@ class NewInterval {
 	
 	public NewInterval () {
 		this.setNewInterval(0, 0);
-    }
+    	}
     
 	public NewInterval (NewInterval newInterval) {
 		this.setNewInterval(newInterval);
@@ -117,7 +117,7 @@ class NewInterval {
 	
 	public void display() {
 		System.out.println("[" + this.getLow() + ", " + this.getHigh() + "]");
-    }
+    	}
     
 	public static void main(String[] args) {
 		NewInterval test =  new NewInterval();
