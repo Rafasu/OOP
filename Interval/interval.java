@@ -7,7 +7,7 @@ class Interval {
 	
 	public Interval() {
 		this.setInterval(0, 0);
-    }
+    	}
     
 	public Interval(Interval interval) {
 		this.setInterval(interval);
@@ -23,7 +23,7 @@ class Interval {
 	
 	public Interval clone() {
 		return new Interval(this);
-    }
+    	}
     
 	public void setInterval(double low, double high) {
 		this.low = low;
@@ -106,7 +106,7 @@ class Interval {
 	
 	public void display() {
 		System.out.println("[" + this.low + ", " + this.high + "]");
-    }
+    	}
     
 	public static void main(String[] args) {
 		Interval test =  new Interval();
